@@ -104,4 +104,9 @@
 ;; toggle menu-bar visibility
 (global-set-key (kbd "<f12>") 'menu-bar-mode)
 
+;; end key borks out when using xterm-256
+;; PuTTY fix. Ugly. Bad. But it works. (Good)
+(define-key global-map "\M-[1~" 'beginning-of-line)
+(define-key global-map [select] 'end-of-line)
+
 (provide 'bindings-config)
