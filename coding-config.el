@@ -4,7 +4,7 @@
 ;; this will get applied to all modes extending cc-mode
 ;; like java-mode, php-mode, etc
 (defun c-coding-hook ()
-  (setq c-basic-offset 4)
+  (setq c-basic-offset 2)
   (coding-hook))
 
 (add-hook 'c-mode-common-hook 'c-coding-hook)
