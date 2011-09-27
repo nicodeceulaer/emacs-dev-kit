@@ -189,7 +189,7 @@
 ;; free of trailing whitespace and to use 80-column width, standard indentation
 (setq whitespace-style '(trailing lines space-before-tab
                                   indentation space-after-tab)
-      whitespace-line-column 80)
+      whitespace-line-column 120)
 
 ;; automatic buffer clean-up
 (require 'midnight)
