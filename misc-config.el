@@ -152,6 +152,7 @@
 (setq diff-switches "-u")
 
 ;; yasnippet - http://code.google.com/p/yasnippet/
+(setq yas/trigger-key (kbd "C-<tab>"))
 (require 'yasnippet)
 (yas/initialize)
 (yas/load-directory (concat ext-dir "yasnippet-0.6.1c/snippets"))
